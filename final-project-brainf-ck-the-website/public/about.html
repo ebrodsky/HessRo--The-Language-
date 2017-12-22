@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hessro: The language!</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <h1 id="title">Hessro: The language!</h1>
+        <h2 id="subtitle">A meme by Justin Bloom and Eytan Brodsky</h2>
+        <header>
+            <nav class="navbar">
+                <ul class="navlist">
+                    <li class="navlink">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="navlink active">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="example.html">Example Code</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            
+            <h3>What is hessro?</h3>
+            <p>Hessro is an esoteric programming language inspired by the brainf*ck language. The language is scanned by our javascript program in order to perform basic
+                commands onto an array. Similar to brainf*ck, these commands are able to move a single iterator to different locations on the array, as well as change the data
+                contained in the array.</p>
+            
+            <h3>Who is Rob Hess and why is he a programming language?</h3>
+            <p>Rob Hess is our lovely, handsome professor for Web Developement at Oregon State University. For our final project in this class we decided to use his name to design
+                a rudimentary programming language, because, well, uh... we can!</p>
+            
+            <h3>How can I learn to program in hessro?</h3>
+            <p>It's actually quite simple. There are five commands you need to know to control the simple array:</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Command</th>
+                        <th>Explanation</th>
+                    </tr>
+                    <tr>
+                        <td>rob</td>
+                        <td>Moves the iterator to the right by 1</td>
+                    </tr>
+                    <tr>
+                        <td>hess</td>
+                        <td>Moves the iterator to the left by 1</td>
+                    </tr>
+                    <tr>
+                        <td>ROB</td>
+                        <td>Increments the data at the iterator's location by 1</td>
+                    </tr>
+                    <tr>
+                        <td>HESS</td>
+                        <td>Decrements the data at the iterator's location by 1</td>
+                    </tr>
+                    <tr>
+                        <td>!robhess</td>
+                        <td>Outputs the data at the iterator's location</td>
+                    </tr>
+                    <tr>
+                        <td>+ROBHESS</td>
+                        <td>Outsputs the value of the data at the current iterator plus that of the previous iterator</td>
+                    </tr>
+                    <tr>
+                        <td>-ROBHESS</td>
+                        <td>Outsputs the value of the data at the current iterator minus that of the previous iterator</td>
+                    </tr>
+                    <tr>
+                        <td>hessro(someNumber)</td>
+                        <td>sets the entire array to someNumber.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Programming in hessro seems tedious, annoying, and unnecessary. How can this website be demonstrated for full credit
+            without having to write my own program in your stupid language?</h3>
+            <p>Never fear! We have example programs featured in our "Example Code" page. Simply navigate to the page, copy and paste our example code, and watch the magic.</p>
+
+        </main>
+    </body>
+
+    <script src="index.js" charset="utf-8"></script>
+</html>

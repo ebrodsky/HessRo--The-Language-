@@ -1,0 +1,164 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding-left: 10px;
+}
+
+#title {
+    margin: 0;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #FFFFF0;
+}
+
+#subtitle {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: #FFFFF0;
+}
+
+.navbar {
+    background-color: #DC143C;
+    margin: 0;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    padding-left: 20px;
+}
+
+.navlink {
+    color: #FFFFF0;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+.navlink a {
+    color: #FFFFF0;
+    text-decoration: none;
+}
+
+.navlink a:hover, .navline a:focus {
+    position: relative;
+    top: -3px;
+}
+
+.navlink.active {
+    box-shadow: inset 0 -3px #FFFFF0;
+}
+
+.fourohfour {
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    border: solid;
+    border-width: 5px;
+    border-color: #DC143C;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-size: xx-large;
+    font-color: #111;
+}
+
+h3 {
+    margin-right: 20%;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 20%;
+}
+
+table {
+    margin-left: 25px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+td, th {
+    padding: 5px;
+}
+
+#inputBox {
+    resize: none;
+    display: block-inline;   
+    background-color: #FAFAFA;
+    border: solid #BBB;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14pt;
+    //font-weight: bold;
+    color: #333;
+    padding: 10px;
+    width: 35%;
+    height: 400px;
+}
+
+#outputBox {
+    display: inline-block;
+    background-color: #FAFAFA;
+    border: solid #BBB;
+    border-width: 3px;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px;
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+}
+#compileButton {
+    display: inline-block;
+    color: #FFFFF0;
+    font-weight: bold;
+    background-color: #77dd77;
+    border: solid #03c03c;
+    border-width: 2px;
+    border-radius: 2px;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+
+#inputHeader {
+    display: inline-block;
+}
+
+#outputHeader {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+}
+
+.code {
+    display: inline-block;
+    background-color: #FAFAFA;
+    border: solid #BBB;
+    border-width: 3px;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px;
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    overflow: scroll;
+}
+
